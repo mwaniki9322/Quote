@@ -1,5 +1,7 @@
 export class Quote {
-    name:string=''
-    author:string='';
-    quotify:string=''
+    showDescription:boolean;
+    constructor(public name:string='',public author:string='',public quotify:string){
+        this.showDescription=true;
+}
+
 }
