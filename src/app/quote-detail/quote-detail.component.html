@@ -4,6 +4,6 @@
        <br>
        <i (click)='quoteDelete(true)' class="fa fa-trash" aria-hidden="true" style="font-size: 25px;" id="trash"></i>
       
-      <i class="fa fa-thumbs-up " style="font-size: 25px;" id="like">{{quote.showUpvote}}</i>
-      <i class="fa fa-thumbs-down " style="font-size: 25px;" id="dislike">{{quote.showDownvote}}</i>
+      <i class="fa fa-thumbs-up " (click)='upVote(true)' style="font-size: 25px;" id="like">{{quote.showUpvote}}</i>
+      <i class="fa fa-thumbs-down" (click)='downVote(true)' style="font-size: 25px;" id="dislike">{{quote.showDownvote}}</i>
       

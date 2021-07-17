@@ -7,7 +7,7 @@
       <div>
      
       </div>
-  <div class="card" style="width: 23rem;"   *ngFor='let quote of quotes;let i = index'>
+  <div class="card"*ngFor='let quote of quotes;let i = index'>
     <div class="card-img-top">
     <li id='qty' appHighlight>{{quote.quotify}} </li><br>
     <p id='author'>~{{quote.author}}~</p>

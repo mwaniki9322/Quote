@@ -12,14 +12,22 @@ nav h2{
 .card{
     margin-top: 20px;
     margin-left: 10px;
-    
+    width: 30rem;
 }
+@media only screen and (max-width: 770px) {
+    .card{
+        margin-left: 5px;
+        width: 22rem;
+
+    
+    }
+}
+    
 #p-1{
     font-weight: bold;
 }
-.col-md-6{
-    margin-right: 10px;
-}
+
+
 li{
     list-style-type: none;
 }
