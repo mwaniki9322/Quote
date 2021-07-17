@@ -11,7 +11,6 @@
     </div>
     
     <div class="card-body">
-      <hr>
     <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isDelete) ='quoteDelete($event,i)'></app-quote-detail>
     <p (click)='toggleDetails(i)' id="p-1">see more</p>
   </div>
