@@ -23,12 +23,13 @@ toggleDetails(index:any){
 }
 quoteDelete(isDelete:any, index:any){
   if(isDelete){
-    let toDelete=confirm(`Are you sure you wnat to delete ${this.quotes[index].name}'s Quote?`)
-  }
-  if (isDelete){
+    let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].name}'s Quote?`)
+  
+  if (toDelete){
     this.quotes.splice(index,1);
   }
 
+}
 }
 
 

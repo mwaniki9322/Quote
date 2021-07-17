@@ -7,10 +7,10 @@ export class HighlightDirective {
 
   constructor(private elem:ElementRef) {}
 
-  @HostListener ('click') onClicks(){
+  @HostListener ('hover') onHovers(){
     this.background('rgb(139, 231, 250)')
   }
-  @HostListener ('dblclick') onDoubleClicks(){
+  @HostListener ('click') onDoubleClicks(){
     this.background('red');
   }
    background(action:string){
