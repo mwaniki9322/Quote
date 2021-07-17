@@ -9,9 +9,9 @@ import { Quote } from './quote';
 export class AppComponent {
   title = 'Quote';
   quotes:Quote[]=[
-    new Quote('Brian Kibet','Benjamin Franklin','Tell me and I forget. Teach me and I remember. Involve me and I learn.'),
-    new Quote('Rachel kigal','Ralph Waldo Emerson','Do not go where the path may lead, go instead where there is no path and leave a trail.'),
-    new Quote('Kingsley','Nelson Mandela','The greatest glory in living lies not in never falling, but in rising every time we fall.')
+    new Quote('Brian Kibet','Benjamin Franklin','Tell me and I forget. Teach me and I remember. Involve me and I learn.',new Date(2021,7,4)),
+  new Quote('Rachel kigal','Ralph Waldo Emerson','Do not go where the path may lead, go instead where there is no path and leave a trail.',new Date(2021,7,13)),
+  new Quote('Kingsley','Nelson Mandela','The greatest glory in living lies not in never falling, but inrising every time we fall.,(2021,7,4)',new Date(2021,4,7))
   ]
  
   }
