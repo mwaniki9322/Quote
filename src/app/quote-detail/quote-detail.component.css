@@ -1,8 +1,9 @@
 #trash:hover{
 color: red;
+zoom: 1.05;
 }
 i{
-    margin-left: 30px;
+    margin-left: 50px;
 }
 #like:hover{
     color:lightblue;
