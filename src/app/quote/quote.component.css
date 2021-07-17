@@ -1,0 +1,13 @@
+nav{
+    height: 100px;
+    text-align: center;
+}
+nav h2{
+    color: antiquewhite;
+}
+.card{
+    margin-top: 20px;
+}
+#p-1{
+    font-weight: bold;
+}
