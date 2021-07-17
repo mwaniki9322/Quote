@@ -25,10 +25,13 @@ quoteDelete(isDelete:any, index:any){
   if(isDelete){
     let toDelete=confirm(`Are you sure you wnat to delete ${this.quotes[index].name}'s Quote?`)
   }
-  if (isDelete) {
+  if (isDelete){
     this.quotes.splice(index,1);
   }
+
 }
+
+
 
 
   constructor() { }
