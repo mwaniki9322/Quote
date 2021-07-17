@@ -15,7 +15,7 @@
     
     <div class="card-body">
     <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isDelete) ='quoteDelete($event,i)'></app-quote-detail>
-    <p (click)='toggleDetails(i)' id="p-1">see more</p>
+    <p (click)='toggleDetails(i)' id="p-1">Details</p>
   </div>
     </div>
     </ul>

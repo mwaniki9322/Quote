@@ -1,4 +1,5 @@
+<div class="card-footer text-muted">
+    <small>Submitted by {{quote.name}} on
+      {{quote.postDate|date}}({{quote.postDate|dateCount}} day(s) ago)</small><br>
 
-<p>Posted By:{{quote.name}}</p>
-<p>Posted on {{quote.postDate|dateCount}}</p>
-<button  class="btn btn-danger" (click)= 'quoteDelete(true)'>Delete</button>
+      <button (click)='quoteDelete(true)'>Delete</button>
