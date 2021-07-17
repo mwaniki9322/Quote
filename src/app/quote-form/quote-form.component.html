@@ -1,7 +1,7 @@
 <div class="container-fluid">
-    <h2 class="text-center">Create a new Quote</h2>
+    <h2 class="text-center">Create a new Goal</h2>
     <hr>
-    <form #goalForm='ngForm'>
+    <form (ngSubmit)='submitQuote()' #goalForm='ngForm'>
         <div class="form-group">
   
             <label for="name">Name</label>
@@ -11,18 +11,22 @@
             </div>
         </div>
 
-        <div class="form-group">
-  
-            <label for="author">Author</label>
-            <input type="text" required class="form-control" id="author">
-  
+        <label for="author">Author</label>
+        <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
+        <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+          <p>Author is required</p>
         </div>
+
+
         <div class="form-group">
   
-            <label for="description">Quote</label>
-            <textarea class="form-control" id="quote" rows="4" required></textarea>
-  
+            <label for="Quote">Quote</label>
+            <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.quotify" name="quotify" #quotify="ngModel" required></textarea>
+            <div [hidden]="quotify.valid || quotify.pristine" class="alert alert-danger">
+              <p>Quote is required</p>
+            </div>
         </div><br>
-        <button type="submit" class="btn btn-primary">Add Quote</button>
+    
+        <button type="submit" class="btn btn-primary" id="btn-1">Add Goal</button>
     </form>
   </div>

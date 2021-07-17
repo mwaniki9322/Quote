@@ -10,8 +10,13 @@ export class QuoteComponent implements OnInit {
 quotes:Quote[]=[
   new Quote('Brian Kibet','Benjamin Franklin','Tell me and I forget. Teach me and I remember. Involve me and I learn.',new Date(2021,7,4)),
   new Quote('Rachel kigal','Ralph Waldo Emerson','Do not go where the path may lead, go instead where there is no path and leave a trail.',new Date(2021,7,13)),
-  new Quote('Kingsley','Nelson Mandela','The greatest glory in living lies not in never falling, but inrising every time we fall.',new Date(2021,4,7))
 ]
+addNewQuote(quote:any){
+  let goalLength = this.quotes.length;
+  quote.id = goalLength+1;
+  quote.completeDate = new Date(quote.completeDate)
+  this.quotes.push(quote)
+}
 
 toggleDetails(index:any){
   this.quotes[index].showDescription = !this.quotes[index].showDescription;

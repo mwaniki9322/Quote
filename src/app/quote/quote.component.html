@@ -1,12 +1,15 @@
-<nav class="navbar bg-primary">
+<nav class="navbar ">
   <h2>Quote Me!</h2>
 </nav>
   <div class="row">
     <div class="col-md-6">
     <ul>
-  <div class="card" style="width: 27rem;"   *ngFor='let quote of quotes;let i = index'>
+      <div>
+     
+      </div>
+  <div class="card" style="width: 23rem;"   *ngFor='let quote of quotes;let i = index'>
     <div class="card-img-top">
-    <li appHighlight>{{quote.quotify}}</li>
+    <li appHighlight>{{quote.quotify}}</li><br>
     <p>~{{quote.author}}~</p>
     </div>
     
@@ -18,8 +21,8 @@
     </ul>
 </div>
 
-<div class="col-md-4">
-  <app-quote-form></app-quote-form>
+<div class="col-md-5">
+  <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
 </div>
 </div>
 
