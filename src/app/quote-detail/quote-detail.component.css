@@ -1,7 +1,12 @@
-#svg:hover{
-background-color: red;
+#trash:hover{
+color: red;
 }
 i{
-    padding-left: 30px;
+    margin-left: 30px;
+}
+#like:hover{
+    color:lightblue;
+    zoom: 1.05;
+
 }
 
