@@ -1,5 +1,5 @@
 <nav class="navbar ">
-  <h2>Quote Me!</h2>
+  <h2>"Quote Me!"</h2>
 </nav>
   <div class="row">
     <div class="col-md-6">
@@ -9,8 +9,8 @@
       </div>
   <div class="card" style="width: 23rem;"   *ngFor='let quote of quotes;let i = index'>
     <div class="card-img-top">
-    <li appHighlight>{{quote.quotify}}</li><br>
-    <p>~{{quote.author}}~</p>
+    <li id='qty' appHighlight>{{quote.quotify}} </li><br>
+    <p id='author'>~{{quote.author}}~</p>
     </div>
     
     <div class="card-body">

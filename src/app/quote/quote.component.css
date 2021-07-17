@@ -2,10 +2,11 @@ nav{
     height: 120px;
     text-align: center;
     background-color: #0A1931;
+    overflow: hidden;
 }
 nav h2{
     color: antiquewhite;
-    margin-left: 40%;
+    margin-left: 39%;
     margin-top: 20px;
 }
 .card{
@@ -22,6 +23,6 @@ nav h2{
 li{
     list-style-type: none;
 }
-form label{
-    font-weight: bold;
+#qq{
+    margin-left: 100px;
 }
