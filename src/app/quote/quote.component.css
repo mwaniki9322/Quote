@@ -9,6 +9,13 @@ nav h2{
     margin-left: 39%;
     margin-top: 20px;
 }
+@media only screen and (max-width: 770px) {
+    nav h2{
+        color: antiquewhite;
+        margin-left:30% ;
+        margin-top: 20px;
+    }
+}
 .card{
     margin-top: 20px;
     margin-left: 10px;
