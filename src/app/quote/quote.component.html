@@ -1,11 +1,26 @@
 <nav class="navbar bg-primary">
   <h2>Quote Me!</h2>
 </nav>
-<ul>
-  
-  <div class="card" style="width: 25rem;"   *ngFor='let quote of quotes;let i = index'>
-    <li appHighlight>{{quote.name}}</li>
+  <div class="row">
+    <div class="col-md-6">
+    <ul>
+  <div class="card" style="width: 27rem;"   *ngFor='let quote of quotes;let i = index'>
+    <div class="card-img-top">
+    <li appHighlight>{{quote.quotify}}</li>
+    <p>~{{quote.author}}~</p>
+    </div>
+    
+    <div class="card-body">
+      <hr>
     <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isDelete) ='quoteDelete($event,i)'></app-quote-detail>
     <p (click)='toggleDetails(i)' id="p-1">see more</p>
+  </div>
+    </div>
+    </ul>
 </div>
-</ul>
+
+<div class="col-md-4">
+  <app-quote-form></app-quote-form>
+</div>
+</div>
+
