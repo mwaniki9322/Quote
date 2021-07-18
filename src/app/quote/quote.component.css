@@ -29,6 +29,9 @@ nav h2{
     
     }
 }
+.card:hover{
+    zoom: 1.03;
+}
     
 #p-1{
     font-weight: bold;
