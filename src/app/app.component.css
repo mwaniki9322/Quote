@@ -1,4 +1,8 @@
 body{
     background-image: url(../assets/pexels-eberhard-grossgasteiger-1670187.jpg);
-    background-size:cover;
+    background-repeat: no-repeat;
+  background-size: cover
+}
+#one{
+    background-image: url(../assets/pexels-eberhard-grossgasteiger-844297.jpg);
 }
