@@ -1,13 +1,13 @@
 # QUOTE ME!
 
 #### Created by 
-[DENNIS MWANIKI](https://mwaniki9322.github.io/akannamesIP/)
+[DENNIS MWANIKI]()
 
 ## Description
 An application that allows users to upload quotes. The quotes can then be up voted, down voted and/or deleted.
 
 ## Application Features
-* Personal Details input
+* Personal Detail input
 * Author Detail Input
 * Quote Input
 * Upvote Quote
