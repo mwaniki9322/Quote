@@ -4,3 +4,10 @@ background-color: #0A1931;
 label{
     font-weight: bold;
 }
+.form-control{
+    background: transparent;
+    border: 2px solid black;
+}
+form:hover{
+    zoom: 1.06;
+}
