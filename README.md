@@ -17,52 +17,37 @@ An application that allows users to upload quotes. The quotes can then be up vot
 ## Setup Process
 To run the web application on your server use the following steps.
 
-*  git clone https://github.com/mwaniki9322/pizzadelivery-IP.git
+*  git clone https://github.com/mwaniki9322/Quote.git
 *  cd Quote
 *  code .
 *  ng serve -o
 
 ## Technologies Used
-* Angular
+This project was generated with Angular CLI version 12.1.2. 
 * HTML
 * CSS
 * Typescript
 * Bootstrap
 
 ## Behaviour Driven Development(BDD)
-### 1. Displays Form To Enter Pizza Choice
-* INPUT: Pizza Details
-* OUTPUT: Displays Pizza Details.
+### 1. Displays Form To Enter Quote
+* INPUT: Quote Details
+* OUTPUT: Displays Quote Details.
 
-### 2. Displays An Error Message If Pizza Details Are Not Filled
+### 2. Displays An Error Message If Quote Details Are Not Filled
 * INPUT: ""
-* OUTPUT:"Please Fill Out This Field". 
+* OUTPUT:"Field is Required". 
 
-### 3. Displays Form To Enter User Details
-* INPUT: Credentials
-* OUTPUT: Displays Users Name.
-
-### 4. Displays An Error Message If User Credentials Are Not Filled 
-* INPUT: ""
-* OUTPUT: "Please Fill Out This Field".
-
-### 5 Displays Order on Click
-* INPUT: "Click Order Button"
-* OUTPUT: "Displays Your Order Details"
-
-### 6 Check Out 
-* INPUT: "Click Checkout Button"
-* OUTPUT: "Prompt Location ask"
-
-### 7 Location Fill 
-* INPUT: "Your Location"
-* OUTPUT: "Location"
+##To Do
+* Store quote entries in a database
+* Improve functionality of voting buttons to ensure one can only like OR dislike a quote
+* Add custom validations to the form to prevent submission of inputs with just whitespace
 
 ### Known bugs
-* No bags reported.Raise a bug fix [here](https://github.com/mwaniki9322/pizzadelivery-IP.git)
+* No bags reported.Raise a bug fix [here](https://github.com/mwaniki9322/Quote.git)
 
 ## Contact
 * If you wish to reach out incase of any issue you can pull request
 
 ### LICENSE
-https://raw.githubusercontent.com/mwaniki9322/pizzadelivery-IP/Master/LICENSE
+https://github.com/mwaniki9322/Quote/blob/Master/LICENSE
