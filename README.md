@@ -38,7 +38,7 @@ This project was generated with Angular CLI version 12.1.2.
 * INPUT: ""
 * OUTPUT:"Field is Required". 
 
-##To Do
+## To Do
 * Store quote entries in a database
 * Improve functionality of voting buttons to ensure one can only like OR dislike a quote
 * Add custom validations to the form to prevent submission of inputs with just whitespace
