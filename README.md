@@ -1,27 +1,68 @@
-# Quote
+# QUOTE ME!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+#### Created by 
+[DENNIS MWANIKI](https://mwaniki9322.github.io/akannamesIP/)
 
-## Development server
+## Description
+An application that allows users to upload quotes. The quotes can then be up voted, down voted and/or deleted.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Application Features
+* Personal Details input
+* Author Detail Input
+* Quote Input
+* Upvote Quote
+* DownVote Quote
+* Delete Quote
 
-## Code scaffolding
+## Setup Process
+To run the web application on your server use the following steps.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+*  git clone https://github.com/mwaniki9322/pizzadelivery-IP.git
+*  cd Quote
+*  code .
+*  ng serve -o
 
-## Build
+## Technologies Used
+* Angular
+* HTML
+* CSS
+* Typescript
+* Bootstrap
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Behaviour Driven Development(BDD)
+### 1. Displays Form To Enter Pizza Choice
+* INPUT: Pizza Details
+* OUTPUT: Displays Pizza Details.
 
-## Running unit tests
+### 2. Displays An Error Message If Pizza Details Are Not Filled
+* INPUT: ""
+* OUTPUT:"Please Fill Out This Field". 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 3. Displays Form To Enter User Details
+* INPUT: Credentials
+* OUTPUT: Displays Users Name.
 
-## Running end-to-end tests
+### 4. Displays An Error Message If User Credentials Are Not Filled 
+* INPUT: ""
+* OUTPUT: "Please Fill Out This Field".
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 5 Displays Order on Click
+* INPUT: "Click Order Button"
+* OUTPUT: "Displays Your Order Details"
 
-## Further help
+### 6 Check Out 
+* INPUT: "Click Checkout Button"
+* OUTPUT: "Prompt Location ask"
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 7 Location Fill 
+* INPUT: "Your Location"
+* OUTPUT: "Location"
+
+### Known bugs
+* No bags reported.Raise a bug fix [here](https://github.com/mwaniki9322/pizzadelivery-IP.git)
+
+## Contact
+* If you wish to reach out incase of any issue you can pull request
+
+### LICENSE
+https://raw.githubusercontent.com/mwaniki9322/pizzadelivery-IP/Master/LICENSE
